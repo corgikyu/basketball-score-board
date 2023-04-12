@@ -1,0 +1,32 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="column">
+                <h3 class="title-style">HOME</h3>
+                <h4 id="home-number" class="number-style">0</h4>
+                <div>
+                    <button onclick="plusOneHome()">+1</button>
+                    <button onclick="plusTwoHome()">+2</button>
+                    <button onclick="plusThreeHome()">+3</button>
+                </div>
+            </div>
+            
+            <div class="column">
+                <h3 class="title-style" >GUEST</h3>
+                <h4 id="guest-number" class="number-style">0</h4>
+                <div>
+                    <button onclick="plusOneGuest()">+1</button>
+                    <button onclick="plusTwoGuest()">+2</button>
+                    <button onclick="plusThreeGuest()">+3</button>
+                </div>
+            </div>
+              <button id="reset-button" onclick="reset()">RESET</button>
+              <h4 class="title-style" id="countdown">12:00</h4>
+              <button id="reset-timer" onclick="resetTimer()">RESTART</button>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
